@@ -37,7 +37,7 @@ Both fits have chi2/dof ~0.67-0.76; dBIC(flat - full) = 1548 (clear), 234 (cloud
 Abundance, reference radius and cloud pressure are strongly degenerate (R0 is defined at fixed P0) - a genuine feature of
 transmission retrievals, visible in the corner plot, not a bug.
 
-## Limitations (state these in the report)
+## Limitations 
 1. **No real data was analysed in the build environment (no internet).** Real-data mode and fetch_data.py are written but unrun;
    archive column names/depth units must be verified.
 2. **H2O opacity is a toy band model** (real band positions, order-of-magnitude amplitudes), so retrieved abundances are NOT physical
