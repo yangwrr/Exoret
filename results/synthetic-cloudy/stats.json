@@ -1,0 +1,15 @@
+{
+ "chi2_full": 24.33197659424629,
+ "dof_full": 32,
+ "chi2_flat": 269.1934510996715,
+ "dof_flat": 35,
+ "BIC_full": 38.66605234807073,
+ "BIC_flat": 272.7769700381276,
+ "acceptance": 0.37183836206896553,
+ "tau_max": 228.13090851511274,
+ "n_eff": 3506.7584888305623,
+ "dBIC_flat_minus_full": 234.11091769005688,
+ "opacity": "toy",
+ "data_kind": "synthetic",
+ "runtime_s": 131.7281882762909
+}
