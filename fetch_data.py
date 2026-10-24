@@ -1,7 +1,3 @@
-"""Download real transmission spectra from the NASA Exoplanet Archive TAP service (needs internet).
-Usage: python fetch_data.py "HD 209458 b"   -> data/raw/<planet>_<n>.csv per reference + raw dump.
-Column names of the archive's `transitspec` table are matched by keyword; INSPECT the raw dump and the printed
-mapping before trusting the output (this script could not be executed offline when written)."""
 import sys, io, re, requests, pandas as pd
 URL = "https://exoplanetarchive.ipac.caltech.edu/TAP/sync"
 
